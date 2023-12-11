@@ -7,7 +7,7 @@ import { IOrder } from 'common/interfaces/order.interface';
 import { stringify } from 'querystring';
 import { ApiTags } from '@nestjs/swagger';
 import { JwtAuthGuard } from 'src/auth/guards/jwt-auth.guard';
-@ApiTags('carro')
+@ApiTags('order')
 @UseGuards(JwtAuthGuard)
 @Controller('api/v2/order')
 export class OrderController {

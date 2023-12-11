@@ -14,11 +14,11 @@ export enum UserMSG{
 }
 
 export enum OrderMSG{
-    CREATE = 'CREATE_CARRITO',
-    FIND_ALL =  'FIND_CARRITOS',
-    FIND_ONE = 'FIND_CARRITO',
-    UPDATE = 'UPDATE_CARRITO',
-    DELETE = 'DELETE_CARRITO',
+    CREATE = 'CREATE_ORDER',
+    FIND_ALL =  'FIND_ORDERS',
+    FIND_ONE = 'FIND_ORDER',
+    UPDATE = 'UPDATE_ORDER',
+    DELETE = 'DELETE_ORDER',
     ADD_Product = 'ADD_PRODUCTO'
     
 }

@@ -14,7 +14,4 @@ export class OrderDTO{
     
     @IsString()
     readonly precio: string;
-   
-  
-  
 }

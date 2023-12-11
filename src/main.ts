@@ -12,7 +12,7 @@ async function bootstrap() {
 
   const options = new DocumentBuilder()
   .setTitle('ECOMMERCE API')
-  .setDescription('Tienda de Zapatillas')
+  .setDescription('ECOMMERCE TEST')
   .setVersion('2.0.0')
   .addBearerAuth()
   .build();
