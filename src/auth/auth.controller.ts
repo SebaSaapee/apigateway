@@ -20,5 +20,4 @@ export class AuthController {
     async signUp(@Body () userDTO:UserDTO){
         return await this.authService.signUp(userDTO);  
     }
-
 }

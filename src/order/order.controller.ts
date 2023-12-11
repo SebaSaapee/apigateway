@@ -42,7 +42,7 @@ export class OrderController {
 
     }
 
-    @Post(':orderId/producto/: productoId')
+    @Post(':orderId/producto/:productoId')
     async addProducto(
         @Param('orderId') orderId :string,
         @Param('productoId') productoId :string,
@@ -56,7 +56,7 @@ export class OrderController {
                 orderId,
                 productoId
             
-            })
+})
         }
         
     }
